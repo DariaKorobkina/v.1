@@ -1,0 +1,88 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+@import url(http://meyerweb.com/eric/tools/css/reset/reset.css);
+
+header {
+	margin: 25px 25px 25px 25px;
+}
+
+body { 
+	background-color: #2c3338;
+	color: #606468;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+.clearfix { *zoom: 1; } /* For IE 6/7 */
+.clearfix:before, .clearfix:after {
+	display: table;
+	content: "";
+}
+.clearfix:after { clear: both; }
+
+#signup-form { 
+	width: 510px; 
+	margin: 0 auto; 
+	margin-top: 50px; 
+	margin-bottom: 50px; 
+}
+
+#header h1 { 
+	float: left; 
+	margin: 0 0 30px; 
+	font-size: 24px; 
+	line-height: 34px; 
+}
+
+form { 
+	margin: 30px 0 0 0;
+}
+
+form input { 
+	border: none;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-color: #3b4148;
+	color: #606468;
+	margin-bottom: 1em;
+	padding: 0 16px;
+	width: 198px;
+	font-family: 'Open Sans', Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+	height: 50px;
+	width: 100%; 
+}
+
+#submit { 
+	border: none;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-color: #ea4c88;
+	color: #eee;
+	font-weight: bold;
+	margin-bottom: 2em;
+	text-transform: uppercase;
+	cursor:pointer;
+	width: 280px; 
+	height: 50px;
+}
+
+#submit:hover { 
+	background-color: #d44179;
+	cursor: pointer; 
+}
+
+#required p{
+	font-size:12px;
+}
